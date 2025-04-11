@@ -101,7 +101,7 @@ th{
     background-color: rgb(111, 180, 177);
 }
 table, th, td {
-    border-radius: 10px;
+    border-radius: 7px;
     padding: 5px;
 }
 #qr {
