@@ -1,0 +1,150 @@
+.heading{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(6, 84, 113);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+body{
+    background-color: #00374f;
+    background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");
+    font-family: "Poiret One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#form{
+    text-align: center;
+}
+#input{
+    margin-top: 40px;
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    background-color:#1e1c26;
+    border: 3px solid rgb(64, 130, 158);
+    color: beige;
+}
+input::placeholder{
+    color: beige;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+}
+.container{
+    margin-left: 25%;
+    background-color:rgb(111, 180, 177);
+    width: 50%;
+    justify-content: center;
+    height: 580px;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 15px;
+    margin-top: 4%;
+    box-shadow: 0 4px 8px rgba(204, 202, 202, 0.2);
+}
+#btn1{
+    width: 30%;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 55px;
+    margin-top: 40px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #5386E4;
+    display: block;
+    margin-left: 35%;
+    transition: ease;
+    color: beige;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: 2px solid rgb(39, 76, 91);
+}
+#btn1:hover{
+    transform: scale(1.05);
+    transition-duration: 0.7s;
+}
+#shorturl{
+    margin-top: 7%;
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    text-align: center;
+    font-size: 20px;
+    border: 3px solid rgb(64, 130, 158);
+    background-color: #1e1c26;
+    margin-bottom: -1%;
+    color: beige;
+}
+#table{
+    margin-top: 5%;
+    width: 90%;
+    margin-left: 5%;
+    font-weight: bolder;
+    border-radius: 10px;
+}  
+td{
+    text-align: center;
+    background-color: rgb(31, 31, 33);
+    color: beige;
+    font-weight: bolder;
+}
+th{
+    width: 20%;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(111, 180, 177);
+}
+table, th, td {
+    border-radius: 10px;
+    padding: 5px;
+}
+#qr {
+    border-radius: 15px;
+}
+#qrGen{
+    margin-top: 7%;
+    width: 30%;
+    border-radius: 6px;
+    border: 2px solid gray;
+    height: 55px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #5386E4;
+    display: block;
+    margin-left: 35%;
+    transition: ease;
+    color: beige;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border: 2px solid rgb(39, 76, 91);
+}
+#qrGen:hover{
+    transform: scale(1.05);
+    transition-duration: 0.7s;
+}
+#qrGen.hide {
+    transform: translateX(-100%) scale(0.95);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform s ease, opacity 1.5s ease;
+}
+#imgCntnr {
+    visibility: hidden;
+}
+
+#imgCntnr.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(-95px) scale(1);
+    margin-bottom: 20px; 
+}
+a{
+    color: beige;
+}

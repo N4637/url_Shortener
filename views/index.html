@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Poiret+One&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Short Ur URL</h1>
+        <form id="form">
+            <input type="text" placeholder="Enter the url" id="input" name="originalUrl">
+            <button type="submit" id="btn1">Short it !</button>
+            <input type="text" id="shorturl" readonly placeholder="Your short url">
+            <button id="qrGen">Generate Qr</button>
+            <div id="imgCntnr">
+                <img id="qr">
+            </div>
+            
+        </form>
+    </div>
+    <table id="table">
+        <tr>
+            <th>Original Url</th>
+            <th>Short link</th>
+            <th>No. of times link used</th>
+        </tr>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
