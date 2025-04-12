@@ -127,13 +127,13 @@ table, th, td {
 }
 #qrGen:hover{
     transform: scale(1.05);
-    transition-duration: 0.7s;
+    transition-duration: 0.9s;
 }
 #qrGen.hide {
     transform: translateX(-100%) scale(0.95);
     opacity: 0;
     pointer-events: none;
-    transition: transform s ease, opacity 1.5s ease;
+    transition: transform s ease, opacity 2s ease;
 }
 #imgCntnr {
     visibility: hidden;
@@ -142,8 +142,8 @@ table, th, td {
 #imgCntnr.show {
     visibility: visible;
     opacity: 1;
-    transform: translateY(-95px) scale(1);
-    margin-bottom: 20px; 
+    transform: translateY(-100px) scale(1);
+    margin-bottom: 23px; 
 }
 a{
     color: beige;

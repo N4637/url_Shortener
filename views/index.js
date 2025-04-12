@@ -4,7 +4,7 @@ async function analytics(){
     const newRow=(originalUrl,shortUrl,clickCount)=>{
         const table=document.getElementById('table');
         const newEntry=table.insertRow();
-        newEntry.insertCell(0).innerText=originalUrl;
+        newEntry.insertCell(0).innerText=originalUrl.slice(0,50);
         newEntry.insertCell(1).innerHTML=`<a href="http://localhost:5000/${shortUrl}" target="_blank">http://localhost:5000/${shortUrl}</a>`;;
         newEntry.insertCell(2).innerText=clickCount;
     }
