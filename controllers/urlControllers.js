@@ -15,7 +15,7 @@ const createUrl=async(req, res)=>{
             const qr=await QRCode.toDataURL(shortLink);
             return res.status(200).json({key: alreadyExist.shortUrl, qrCode: qr});
         }
-        const uid = new ShortUniqueId({length:7});
+        const uid = new ShortUniqueId({length:4});
         const shortUrl = uid.rnd();
         await Db.create({
             originalUrl: originalUrl,  

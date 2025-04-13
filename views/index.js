@@ -42,7 +42,7 @@ document.getElementById('form').addEventListener('submit', async (e) => {
         originalUrl: inputUrl
     });
 
-    document.getElementById('shorturl').value = `http://localhost:5000/${res.data.key}`;
+    document.getElementById('shorturl').value = `https://url-shortener-fqrr.onrender.com/${res.data.key}`;
 });
 
 document.getElementById('qrGen').addEventListener('click', async(e) => {
