@@ -5,7 +5,7 @@ async function analytics(){
         const table=document.getElementById('table');
         const newEntry=table.insertRow();
         newEntry.insertCell(0).innerText=originalUrl.slice(0,50);
-        newEntry.insertCell(1).innerHTML=`<a href="http://localhost:5000/${shortUrl}" target="_blank">http://localhost:5000/${shortUrl}</a>`;;
+        newEntry.insertCell(1).innerHTML=`<a href="https://url-shortener-fqrr.onrender.com/${shortUrl}" target="_blank">https://url-shortener-fqrr.onrender.com/${shortUrl}</a>`;;
         newEntry.insertCell(2).innerText=clickCount;
     }
     console.log('in function')
